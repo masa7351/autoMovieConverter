@@ -15,10 +15,23 @@ This script converts automatically and eliminate troublesomeness of converting f
 
 # Installation
 
-## Make Custom Apple Script
+## Clone and resolve paths
 
-- Clone this repository to `~/workspace/capture/`
-  `"~/workspace/capture/"` is my script location. please change a suitable location.
+Clone this repository to `~/workspace/capture/`
+
+`"~/workspace/capture/"` is my script location.
+
+Please change a suitable location.
+
+scripts/convert.sh
+
+```
+~/.pyenv/shims/python convert.py
+```
+
+I have no idea why I must write with full path. Please change where python is installed.
+
+## Make Custom Apple Script
 
 - Launch Script Editor in `/Applications/Utilites/`
 
